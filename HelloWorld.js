@@ -61,3 +61,10 @@
 // eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
 // console.log(eventListeners + " 个监听器监听连接事件。");
 // console.log("程序执行完毕。");
+
+//6
+var buf = new Buffer(10);
+// var buf = new Buffer([10,20,30,40,50]);
+// var buf = new Buffer('www.rails.com',"UTF-8");
+var len = buf.write("www.rails.com");
+console.log("写入字符数 ： " + len);
