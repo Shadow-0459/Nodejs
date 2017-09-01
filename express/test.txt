@@ -1,0 +1,11 @@
+devtmpfs                 1.8G     0  1.8G    0% /dev
+tmpfs                    1.8G  310M  1.5G   17% /dev/shm
+tmpfs                    1.8G  1.8M  1.8G    1% /run
+tmpfs                    1.8G     0  1.8G    0% /sys/fs/cgroup
+/dev/mapper/fedora-root   92G  7.6G   80G    9% /
+tmpfs                    1.8G  3.3M  1.8G    1% /tmp
+/dev/sda1                976M  145M  765M   16% /boot
+/dev/mapper/fedora-home  197G  3.4G  184G    2% /home
+tmpfs                    366M   20K  366M    1% /run/user/42
+tmpfs                    366M  5.7M  360M    2% /run/user/1000
+
